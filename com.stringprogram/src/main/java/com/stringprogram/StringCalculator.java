@@ -1,8 +1,11 @@
 package com.stringprogram;
 
 public class StringCalculator {
-	public int add(String name) {
-		return 0;
-	}
+	public int add(String numbers) {
+        if (numbers.isEmpty()) {
+            return 0;
+        }
+        return -1; 
+    }
 
 }
