@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class StringCalculatorTest {
 	
 	@Test
-	public void testNewlineAndCommaDelimiters() {
+	public void testCustomDelimiters() {
 		StringCalculator calculator = new StringCalculator();
-		assertEquals(6, calculator.add("1\n2,3"));
+		assertEquals(3, calculator.add("//;\n1;2"));
 	}
 
 }
