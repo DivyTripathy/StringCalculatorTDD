@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class StringCalculatorTest {
 	
 	@Test
-	public void testMultipleNumbersReturnsSum() {
+	public void testNewlineAndCommaDelimiters() {
 		StringCalculator calculator = new StringCalculator();
-		assertEquals(15, calculator.add("1,2,3,4,5"));
+		assertEquals(6, calculator.add("1\n2,3"));
 	}
 
 }
