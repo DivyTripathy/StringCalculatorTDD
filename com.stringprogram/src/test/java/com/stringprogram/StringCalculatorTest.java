@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class StringCalculatorTest {
 	
 	@Test
-	public void testTwoNumbersReturnsSum() {
+	public void testMultipleNumbersReturnsSum() {
 		StringCalculator calculator = new StringCalculator();
-		assertEquals(3, calculator.add("1,2"));
+		assertEquals(15, calculator.add("1,2,3,4,5"));
 	}
 
 }
